@@ -1,0 +1,46 @@
+.Header {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  #header-logo {
+      width: 5%;
+      height: auto;
+  }
+
+  #links {
+      display: flex;
+      gap: 50px;
+  }
+
+  .nav-links {
+      font-size: 80%;
+      color: rgba(255,255,255,.5);
+      text-decoration: none;
+  }
+
+  .nav-links:hover {
+      color: white;
+  }
+
+  .socials-div {
+      display: flex;
+      gap: 35px;
+  }
+
+  .socials-button {
+      color: white;
+  }
+
+  .connect-div {
+      display: flex;
+  }
